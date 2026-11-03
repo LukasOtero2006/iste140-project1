@@ -1,0 +1,161 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #0b3d2e;
+  background-color: #eef8ee;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+a {
+  color: #1f6b4f;
+}
+
+header {
+  background-color: #0b3d2e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #a8e6a1;
+}
+
+.site-name {
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+  color: #a8e6a1;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav a {
+  display: block;
+  padding: 8px 18px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+nav a:hover,
+nav a.current {
+  background-color: #a8e6a1;
+  color: #0b3d2e;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #0b3d2e;
+  border-bottom: 3px solid #a8e6a1;
+  padding-bottom: 5px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 8px solid #1f6b4f;
+}
+
+.intro img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #a8e6a1;
+}
+
+.intro-text h2 {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+.tagline {
+  font-weight: bold;
+  color: #1f6b4f;
+}
+
+.mission {
+  background-color: #0b3d2e;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.mission h2 {
+  color: #a8e6a1;
+  border-bottom-color: #1f6b4f;
+  margin-top: 0;
+}
+
+.cards {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.cards li {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border-top: 5px solid #a8e6a1;
+}
+
+.cards li:hover {
+  background-color: #d6f2d3;
+}
+
+.cards h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #0b3d2e;
+  color: #a8e6a1;
+  text-align: center;
+  padding: 15px;
+  border-top: 5px solid #a8e6a1;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+}
