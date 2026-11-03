@@ -159,3 +159,118 @@ footer p {
     flex-direction: column;
   }
 }
+
+.pdf-link {
+  text-align: center;
+  font-weight: bold;
+}
+ 
+.resume {
+  background-color: #ffffff;
+  padding: 40px;
+  border: 1px solid #a8e6a1;
+  border-top: 8px solid #0b3d2e;
+  border-radius: 6px;
+}
+ 
+.resume-header {
+  background-color: #ffffff;
+  color: #0b3d2e;
+  padding: 0 0 15px 0;
+  border-bottom: 3px solid #1f6b4f;
+  text-align: center;
+}
+ 
+.resume-header h2 {
+  margin: 0;
+  font-size: 2rem;
+  border-bottom: none;
+}
+ 
+.resume-header p {
+  margin: 4px 0;
+}
+ 
+.resume h3 {
+  margin-top: 25px;
+  padding-bottom: 5px;
+  color: #1f6b4f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #a8e6a1;
+}
+ 
+.job {
+  margin-bottom: 15px;
+}
+ 
+.job h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+ 
+.details {
+  margin: 2px 0 5px 0;
+  font-style: italic;
+  color: #1f6b4f;
+}
+ 
+.resume ul {
+  margin-top: 5px;
+}
+ 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+ 
+th, td {
+  padding: 8px;
+  border: 1px solid #a8e6a1;
+  text-align: center;
+}
+ 
+th {
+  background-color: #0b3d2e;
+  color: #ffffff;
+}
+ 
+tbody tr:nth-child(even) {
+  background-color: #eef8ee;
+}
+ 
+.note {
+  font-size: 0.85rem;
+  color: #1f6b4f;
+}
+ 
+@media print {
+  header, footer, .pdf-link {
+    display: none;
+  }
+ 
+  .resume-header {
+    display: block;
+  }
+ 
+  body {
+    background-color: #ffffff;
+  }
+ 
+  .resume {
+    border: none;
+  }
+}
+ 
+@media (max-width: 700px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+ 
+  .cards {
+    flex-direction: column;
+  }
+}
+ 
