@@ -289,6 +289,108 @@ tbody tr:nth-child(even) {
 .school ul {
   margin-top: 5px;
 }
+
+.redmoon-page {
+  color: #4a1018;
+  background-color: #fff1f2;
+}
+
+.redmoon-page header,
+.redmoon-page footer {
+  background-color: #4a1018;
+  border-color: #f08a8f;
+}
+
+.redmoon-page .site-name {
+  color: #ffb3b7;
+}
+
+.redmoon-page a {
+  color: #a51d2d;
+}
+
+.redmoon-page nav a {
+  color: #ffffff;
+}
+
+.redmoon-page nav a:hover,
+.redmoon-page nav a.current {
+  background-color: #f08a8f;
+  color: #4a1018;
+}
+
+.redmoon-page h2 {
+  color: #4a1018;
+  border-color: #f08a8f;
+}
+
+.redmoon-hero {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-left: 8px solid #a51d2d;
+  border-radius: 10px;
+}
+
+.redmoon-hero img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 5px solid #f08a8f;
+  background-color: #4a1018;
+}
+
+.redmoon-hero h2 {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+.redmoon-link {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #a51d2d;
+  color: #ffffff !important;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.redmoon-link:hover {
+  background-color: #721522;
+}
+
+.redmoon-panel {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-top: 6px solid #a51d2d;
+}
+
+.redmoon-panel h2 {
+  margin-top: 0;
+}
+
+.redmoon-page .cards li {
+  border-top-color: #f08a8f;
+}
+
+.redmoon-page .cards li:hover {
+  background-color: #ffe0e2;
+}
+
+.redmoon-page footer {
+  color: #ffb3b7;
+}
+
+@media (max-width: 700px) {
+  .redmoon-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
  
  
 @media print {
