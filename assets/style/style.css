@@ -274,3 +274,50 @@ tbody tr:nth-child(even) {
   }
 }
  
+.school {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border-left: 6px solid #a8e6a1;
+}
+ 
+.school h3 {
+  margin: 0;
+}
+ 
+.school ul {
+  margin-top: 5px;
+}
+ 
+ 
+@media print {
+  header, footer, .pdf-link {
+    display: none;
+  }
+ 
+  .resume-header {
+    display: block;
+  }
+ 
+  body {
+    background-color: #ffffff;
+  }
+ 
+  .resume {
+    border: none;
+  }
+}
+ 
+ 
+@media (max-width: 700px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+ 
+  .cards {
+    flex-direction: column;
+  }
+}
+ 
