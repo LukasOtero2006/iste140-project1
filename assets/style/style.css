@@ -290,6 +290,55 @@ tbody tr:nth-child(even) {
   margin-top: 5px;
 }
 
+.personal-intro,
+.personal-feature {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-left: 8px solid #1f6b4f;
+}
+
+.personal-intro img,
+.personal-feature img {
+  width: 240px;
+  height: 190px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 5px solid #a8e6a1;
+}
+
+.personal-intro h2,
+.personal-feature h2 {
+  margin-top: 0;
+}
+
+.personal-feature-reverse {
+  flex-direction: row-reverse;
+  border-left: none;
+  border-right: 8px solid #1f6b4f;
+}
+
+@media (max-width: 700px) {
+  .personal-intro,
+  .personal-feature,
+  .personal-feature-reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .personal-intro img,
+  .personal-feature img {
+    width: 100%;
+    max-width: 420px;
+    height: 220px;
+  }
+}
+
 .redmoon-page {
   color: #4a1018;
   background-color: #fff1f2;
